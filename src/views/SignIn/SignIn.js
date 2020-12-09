@@ -122,6 +122,7 @@ const SignIn = (props) => {
                 onChange={onChange}
                 type="text"
                 value={email}
+                autoComplete="email"
                 variant="outlined"
                 inputRef={emailRef}
               />
@@ -133,6 +134,7 @@ const SignIn = (props) => {
                 onChange={onChange}
                 type="password"
                 value={password}
+                autoComplete="current-password"
                 variant="outlined"
                 inputRef={passwordRef}
               />
